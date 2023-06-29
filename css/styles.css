@@ -337,12 +337,12 @@ max-width: 264px;
 /*----------SECTION HERO---------*/
 .hero-section {
   min-width: 428px; 
-  padding-top: 188px; 
-  padding-bottom: 188px;
+  padding-top: 112px; 
+  padding-bottom: 112px;
   margin-right: auto;
   margin-left: auto;
   background-image: 
-  linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero.jpg);
+  linear-gradient(rgba(100, 106, 211, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero.jpg);
   
   background-position: center;
   background-size: cover;

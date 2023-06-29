@@ -20,7 +20,8 @@
     .advantages-subtitle
     {text-align: left;}
     
-    
+    .hero-section {
+}
         
     
     
@@ -52,11 +53,11 @@
     }
     .advantages-points-fon{
         display: flex;
-        width: 100%;
+        
         height: 112px;
         align-items: center;
         justify-content: center;
-        height: 112px;
+        
         background-color: var(--cloud);
         border-radius: 4px;
       margin-bottom: 8px;
