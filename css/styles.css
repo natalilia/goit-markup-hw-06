@@ -581,7 +581,7 @@ margin-bottom: 8px;
 
 /*---------CUSTOMERS----------*/
 .customers{
-  padding: 120px 0;
+  padding: 96px 0;
 }
 .customers-title{
 
@@ -598,12 +598,16 @@ margin-bottom: 72px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 72px 16px;
+  
+  flex-wrap: wrap;
 }
 
 .customers-examples {
   height: 88px;
-  width: calc((100% - 120px) / 6);
+  max-width: 100%;
+  width: calc((100% - 16px) / 2);
+  /*width: calc((100% - 120px) / 6);*/
 
 
 }

@@ -69,6 +69,18 @@ gap: 64px 24px;
     }
     .team-img{width: 100%;
         height: auto;}
+/*--------CUSTOMERS---------*/
+.custom-container{
+    max-width: 768px;
+}
+.customers-list{
+    gap: 72px 24px;
+}
+.customers-examples{
+    width: calc((100% - 24px) / 4);
+}
+
+        
 }
 
 /*------------------------LAPTOP--------------------*/
@@ -182,4 +194,16 @@ flex-wrap: nowrap;
 .team-person-photo{
     width: calc((100% - 72px) / 4);
 }
+
+/*--------CUSTOMERS---------*/
+.customers{
+    padding: 120px 0;
+  }
+  .customers-list {
+    flex-wrap: nowrap;
+  }
+
+  .customers-examples{
+    width: calc((100% - 120px) / 6);
+  }
 }
