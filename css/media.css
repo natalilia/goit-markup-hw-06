@@ -5,6 +5,9 @@
         max-width: 428px;
     }
     .advantages-points-item{max-width: 396px;}
+    .hero-section{
+        
+    }
 }
 
 @media screen and (min-width: 768px){
@@ -13,15 +16,27 @@
     }
     .advantages-points-item{
         max-width: unset;
-        width: calc((100% - 72px) / 2);
+        width: calc((100% - 32px) / 2);
     
     }
 
+    .advantages-points {
+        gap: 72px 24px;
+    }
     .advantages-subtitle
     {text-align: left;}
     
-    .hero-section {
+    .advantages-text{
+
+    }
+.hero-title{
+    min-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
 }
+.hero-section{background-image: 
+    linear-gradient(rgba(100, 106, 211, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-tab.jpg);}
         
     
     
@@ -46,6 +61,7 @@
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
+       
     
     }
     .advantages-points{
@@ -62,12 +78,18 @@
         border-radius: 4px;
       margin-bottom: 8px;
       }
+      .advantages-text{
+        font-weight: 400;
+}
 
     /*----------SECTION HERO---------*/
     .hero-section {
         max-width: 1440px; 
         padding-top: 188px; 
-        padding-bottom: 188px;}
+        padding-bottom: 188px;
+        background-image: 
+        linear-gradient(rgba(100, 106, 211, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero.jpg);
+    }
         .hero-title {
           font-size: 56px;
           line-height: 1.07;
