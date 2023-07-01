@@ -35,10 +35,14 @@
     line-height: 1.07;
     margin-bottom: 36px;
 }
-.hero-section{background-image: 
-    linear-gradient(rgba(100, 106, 211, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-tab.jpg);}
+.hero-section{background-image: linear-gradient(rgba(100, 106, 211, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-tab.jpg);}
         
-    
+@media(min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx)
+    {.hero-section{background-image: linear-gradient(rgba(100, 106, 211, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-tab-2x.jpg);}
+
+    }
     
 }
 
@@ -87,8 +91,13 @@
         max-width: 1440px; 
         padding-top: 188px; 
         padding-bottom: 188px;
-        background-image: 
-        linear-gradient(rgba(100, 106, 211, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero.jpg);
+        background-image: linear-gradient(rgba(100, 106, 211, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero.jpg);
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
+      .hero-section{background-image: linear-gradient(rgba(100, 106, 211, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-2x.jpg);
+        }
     }
         .hero-title {
           font-size: 56px;
