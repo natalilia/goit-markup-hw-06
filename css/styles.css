@@ -487,11 +487,11 @@ padding: 96px 0;
 
 
 .team-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
 text-align: center;
-letter-spacing: 0.02em;
+letter-spacing: 0.4px;
 color: var(--navy-blue);
 text-transform: capitalize;
 margin-bottom: 72px; 
@@ -506,6 +506,7 @@ margin-bottom: 72px;
   gap: 72px;
   flex-wrap: wrap;
   max-width: 100%;
+  justify-content: center;
  
   
  
