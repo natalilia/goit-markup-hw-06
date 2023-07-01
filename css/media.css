@@ -46,23 +46,29 @@
     .advantages-subtitle
     {text-align: left;}
     
-    .advantages-text{
-
-    }
-
+    
 
 
  /*-----OUR TEAM-----*/
  .team-section{
     padding: 120px 0;
  }
+.tab-container{
+    max-width: 584px;
+}
+
 
     .team-person {
   display: flex; 
-  gap: 24px;
-flex-direction: row;
+
+flex-wrap: nowrap;
+gap: 64px 24px;
 }
-    
+.team-person-photo{
+    width: calc((100% - 24px) / 2);
+    }
+    .team-img{width: 100%;
+        height: auto;}
 }
 
 /*------------------------LAPTOP--------------------*/
@@ -164,8 +170,9 @@ width: calc((100% - 48px) / 3);
    .team-person {
   display: flex; 
   gap: 24px;
-flex-direction: row;
+flex-wrap: nowrap;
+}
+.team-person-photo{
+    width: calc((100% - 72px) / 4);
 }
 }
-
-
