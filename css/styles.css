@@ -342,7 +342,7 @@ max-width: 264px;
   margin-right: auto;
   margin-left: auto;
   background-image: 
-  linear-gradient(rgba(100, 106, 211, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-mob.jpg);
+  linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-mob.jpg);
   
   background-position: center;
   background-size: cover;
@@ -354,7 +354,8 @@ max-width: 264px;
     (min-resolution: 192dpi),
     (min-resolution: 2dppx)
     {
-      .hero-section{background-image: linear-gradient(rgba(100, 106, 211, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-mob-2x.jpg);}
+      .hero-section{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/hero-mob-2x.jpg);}
 
     }
 
