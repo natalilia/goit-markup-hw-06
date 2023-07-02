@@ -6,7 +6,7 @@
     }
     .advantages-points-item{max-width: 396px;}
     .footer-input {
-      width: 398px;
+      max-width: 398px;
   }
     .modal {
       min-width: 392px;
