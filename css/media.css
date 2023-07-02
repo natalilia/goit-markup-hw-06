@@ -5,8 +5,12 @@
         max-width: 428px;
     }
     .advantages-points-item{max-width: 396px;}
-   
-    
+    .footer-input {
+      width: 398px;
+  }
+    .modal {
+      min-width: 392px;
+  }
     
 }
 
@@ -167,7 +171,28 @@ gap: 64px 24px;
     width: calc((100% - 24px) / 4);
 }
 
-        
+/*---------FOOTER-------*/
+.footer-content{ flex-direction: row;
+  align-items: baseline;
+  gap: 72px 24px;}
+
+.footer-logo{display: inline-block;}
+
+.footer-form{display: flex;
+  gap: 24px;
+  flex-direction: row;
+  align-items: center;}
+
+  .footer-input{ width: 264px;}
+  .footer-socialm-text{ justify-content: start;}
+   .footer-input-text{justify-content: start;
+  margin-top: 0;}  
+  .footer-text{
+    margin-bottom: 0;
+  }
+
+  /*-------MODAL------*/
+
 }
 
 /*------------------------LAPTOP--------------------*/
@@ -374,20 +399,32 @@ flex-wrap: nowrap;
 /*----------FOOTER---------*/
 .footer {
   background-color: var(--navy-blue);
-  padding: 100px 0;
+  padding: 101.5px 0 100px;
 }
 
 
 .footer-content{
   align-items: baseline;
-  margin-right: 120px;}
+  margin-right: 120px;
+flex-wrap: nowrap;
+gap: unset;}
 
 .footer-text{
   max-width: 264px;
 }
+.first-part{margin-right: 120px;
+  margin-bottom: 0;
+text-align: left;}
 .footer-socialm{
-  display: block;
+  margin-right: 80px;
 }
+
+.footer-socialm{
+ 
+  
+}
+
+.footer-text{max-width: 264px;}
 .footer-socialm-link{}
 
 .footer-socialm-list{ display: flex;
@@ -408,4 +445,7 @@ flex-wrap: nowrap;
     padding-left: 16px; 
 
     }
+
+/*--------MODAL------*/
+.modal{width: 408px;}
 }
