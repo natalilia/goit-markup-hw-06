@@ -370,4 +370,42 @@ flex-wrap: nowrap;
   .customers-examples{
     width: calc((100% - 120px) / 6);
   }
+
+/*----------FOOTER---------*/
+.footer {
+  background-color: var(--navy-blue);
+  padding: 100px 0;
+}
+
+
+.footer-content{
+  align-items: baseline;
+  margin-right: 120px;}
+
+.footer-text{
+  max-width: 264px;
+}
+.footer-socialm{
+  display: block;
+}
+.footer-socialm-link{}
+
+.footer-socialm-list{ display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;}
+
+      .footer-subscribe {
+      padding-left: 80px;
+      }
+.footer-form { display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+.footer-input {
+      width: 264px;
+    padding-left: 16px; 
+
+    }
 }
