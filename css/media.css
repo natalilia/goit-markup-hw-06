@@ -9,7 +9,8 @@
       max-width: 398px;
   }
     .modal {
-      min-width: 392px;
+      min-width: 310px;
+      
   }
     
 }
@@ -22,7 +23,7 @@
     }
 /*------------HEADER--------------*/
 .header{
-  padding: 16px;
+ padding: 0;
 }
 .header-container{
   align-items: center;
@@ -41,10 +42,11 @@
     margin-right: auto;
   }
   .header-menu-link{
+    padding: 24px 0;
     display: block;
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: var(--font-size);
+    font-weight: 400;
+    font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
@@ -135,7 +137,8 @@
         gap: 72px 24px;
     }
     .advantages-subtitle
-    {text-align: left;}
+    {text-align: left;
+    margin: 0;}
     
     
 
@@ -148,7 +151,11 @@
     max-width: 584px;
 }
 
-
+.team-title{font-size: 36px;
+  
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.72px;}
     .team-person {
   display: flex; 
 
@@ -174,8 +181,11 @@ gap: 64px 24px;
 /*---------FOOTER-------*/
 .footer-content{ flex-direction: row;
   align-items: baseline;
-  gap: 72px 24px;}
-
+  gap: 72px 24px;
+}
+.first-part{
+text-align: left;
+}
 .footer-logo{display: inline-block;}
 
 .footer-form{display: flex;
@@ -206,6 +216,7 @@ gap: 64px 24px;
 /*------------HEADER--------------*/
 
 .header {
+  padding: 0;
  
 }
 .header-menu{
@@ -307,7 +318,7 @@ gap: 64px 24px;
 
           /*----ADVANTAGES----*/
     .advantages-section{
-        padding: 120 0px;
+        padding: 120px 0;
     }
     .advantages-points-item{
         
@@ -334,7 +345,7 @@ gap: 64px 24px;
         
         background-color: var(--cloud);
         border-radius: 4px;
-      margin-bottom: 8px;
+      
       }
       .advantages-text{
         font-weight: 400;
@@ -407,7 +418,8 @@ flex-wrap: nowrap;
   align-items: baseline;
   margin-right: 120px;
 flex-wrap: nowrap;
-gap: unset;}
+gap: unset;
+width: unset;}
 
 .footer-text{
   max-width: 264px;
@@ -433,7 +445,7 @@ text-align: left;}
       gap: 16px;}
 
       .footer-subscribe {
-      padding-left: 80px;
+      
       }
 .footer-form { display: flex;
       align-items: center;

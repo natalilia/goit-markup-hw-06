@@ -132,7 +132,10 @@ text-transform: uppercase;
 .header-logo-accent{
   color: var(--navy-blue);
 }
-
+.open-mob-menu{
+  border: none;
+  background: transparent;
+}
 .mob-menu {
   position: fixed;
     top: 0;
@@ -246,6 +249,8 @@ text-transform: uppercase;
   background-color: var(--iris);
   transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.curr{color: var(--ocean);}
 .soc-link {
 }
 
@@ -279,7 +284,7 @@ color: var(--cloud);}
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-right: 72px;
+ 
 }
 .first-part{text-align: center;
 
@@ -350,6 +355,7 @@ margin-bottom: 72px;
     .footer-subscribe {
       display: flex;
     flex-direction: column;
+    margin-top: 72px;
       
       
     }
@@ -360,7 +366,7 @@ margin-bottom: 72px;
       line-height: 1.5;
       color: var(--white);
       margin-bottom: 16px;
-      margin-top: 72px;
+      
       display: flex;
       justify-content: center;
     
@@ -378,8 +384,10 @@ margin-bottom: 72px;
     .footer-form :focus{
       border-color: var(--iris);
     }
-      
-      .footer-subscribe{}
+      .footer-subscribe-email{
+        
+      }
+      .footer-subscribe{width: 398px;}
     
     .footer-input {
       width: 290px;
@@ -581,20 +589,16 @@ align-self: stretch;
 background: var(--cloud);
 padding: 96px 0;
 }
-
-
-.team-title {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-text-align: center;
-letter-spacing: 0.4px;
+.team-title{
+font-size: 36px;
+font-weight: 700;
+line-height: 1.1;
+margin-bottom: 72px;
 color: var(--navy-blue);
 text-transform: capitalize;
-margin-bottom: 72px; 
+text-align: center;
+letter-spacing: 0.4px;}
 
-
-}
 
 
 
