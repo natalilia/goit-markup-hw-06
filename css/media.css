@@ -14,6 +14,12 @@
   }
     
 }
+@media (max-width: 427px){
+  .mob-menu-tel-link{
+    font-size: 20px;
+
+  }
+}
 
 /*------------------------TAB-----------------------*/
 
@@ -45,8 +51,8 @@
     padding: 24px 0;
     display: block;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
@@ -90,7 +96,7 @@
       }
     
 .header-tel-link{font-weight: 400;
-    font-size: 16px;
+   font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--slate);
@@ -129,7 +135,7 @@
     /*---ADVANTAGES--*/
     .advantages-points-item{
         max-width: unset;
-        width: calc((100% - 32px) / 2);
+        width: calc((100% - 24px) / 2);
     
     }
 
@@ -182,6 +188,7 @@ gap: 64px 24px;
 .footer-content{ flex-direction: row;
   align-items: baseline;
   gap: 72px 24px;
+  max-width: 584px;
 }
 .first-part{
 text-align: left;
@@ -416,10 +423,11 @@ flex-wrap: nowrap;
 
 .footer-content{
   align-items: baseline;
-  margin-right: 120px;
+  justify-content: unset;
 flex-wrap: nowrap;
 gap: unset;
 width: unset;}
+
 
 .footer-text{
   max-width: 264px;
@@ -442,10 +450,11 @@ text-align: left;}
 .footer-socialm-list{ display: flex;
       justify-content: center;
       align-items: center;
-      gap: 16px;}
+      gap: 16px;
+   }
 
       .footer-subscribe {
-      
+      margin-top: unset;
       }
 .footer-form { display: flex;
       align-items: center;
